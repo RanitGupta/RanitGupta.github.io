@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome!</title>
+    <title>NOTEPAD!</title>
     <link href="./stylesheet.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
-        <h1>Welcome</h1>
+        <h1>NOTEPAD</h1>
         <p>
-            This page is pretty <span id="adjective">static</span>.
+            Use this page to jot down notes. <span id="adjective">static</span>.
         </p>
-        <input oninput="toggleWordColor()" type="text" id="adjective-input"></input>
-        <button onclick="changeWord()">Click</button>
     </div>
+
+    <div class="wrapper">
+        <h2>Notes:</h2>
+        <textarea id="TextArea" name="TextArea" rows="50" cols="50"></textarea>
+    </div>
+
     <!--
         This is an HTML comment.
     -->
