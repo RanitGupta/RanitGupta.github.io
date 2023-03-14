@@ -9,6 +9,11 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button:hover {
+    background-color: darkblue;
+    transition: 0.2s;
+}
+
 /* selects all elements of the wrapper class */
 .wrapper {
     /* there are some built in colors like lightgray, 
@@ -26,7 +31,8 @@ h1 {
     color: salmon;
 }
 
-/* selects the element with id = TextArea */
-#TextArea {
+/* selects the element with id = Note */
+#Note {
     font-family: "Comic Sans MS";
+    font-style: italic;
 }
