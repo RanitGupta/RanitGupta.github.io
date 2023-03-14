@@ -26,7 +26,7 @@ h1 {
     color: salmon;
 }
 
-/* selects the element with id = adjective */
-#adjective {
+/* selects the element with id = TextArea */
+#TextArea {
     font-family: "Comic Sans MS";
 }
